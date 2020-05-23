@@ -1,0 +1,73 @@
+.comments {
+    background: url(../images/bg-quotes.png) no-repeat;
+    background-position: top 60px left 40px;
+    background-color: var(--blueTwo);
+    padding: 6.5em 5em;
+
+    .commentFlex {
+
+        margin: 2em auto;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+
+        .commentary {
+            background-color: var(--blueFourth);
+            width: 31%;
+            padding: 2.5em 1em 1.5em 1.5em;
+            margin: 0 .2em;
+
+            .commentAuthor {
+
+                .commentRol {
+
+                    margin-left: .5em;
+                    font-size: .8em;
+                    margin-top: 1.330em;
+
+                    h5 {
+                        color: rgba(255, 255, 255, .5);
+                    }
+                }
+
+
+                .commentImage {
+                    margin-top: 1em;
+                    align-self: center;
+
+                    img {
+                        width: 100%;
+                        clip-path: circle(50%);
+                    }
+
+                    width: 30px;
+                }
+
+                display: flex;
+            }
+
+        }
+
+    }
+
+}
+
+@media screen and (max-width:765px) {
+
+    .comments {
+        padding: 10em .2em 0;
+        background-position: top 156px left 32px;
+        background-size: 10%;
+
+
+        .commentFlex {
+            flex-direction: column;
+            margin: 2em auto 0;
+
+            .commentary {
+                width: 65%;
+                margin: 1em 0;
+            }
+        }
+    }
+}

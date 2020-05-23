@@ -1,0 +1,36 @@
+header {
+    margin-top: 2em;
+
+    .header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        .logo {
+            width: 10em;
+            margin-right: 2em;
+
+            img {
+                width: 100%;
+            }
+        }
+    }
+
+    nav {
+
+        display: flex;
+
+        ul {
+            margin-left: .2em;
+            display: flex;
+            list-style: none;
+
+            li {
+                width: 100%;
+                margin-right: 2em;
+                color: var(--white);
+            }
+
+        }
+    }
+}
